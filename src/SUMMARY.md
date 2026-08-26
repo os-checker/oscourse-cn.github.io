@@ -8,3 +8,4 @@
 - [清华操作系统课 2026](./Tsinghua-oscourse-OsTrain-2026/index.md)
   - [第一讲](./Tsinghua-oscourse-OsTrain-2026/lecture1.md)
   - [第二讲](./Tsinghua-oscourse-OsTrain-2026/lecture2.md)
+- [贡献指南](./how-to-contribute.md)
