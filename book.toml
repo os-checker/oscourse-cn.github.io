@@ -1,0 +1,13 @@
+[book]
+authors = ["oscourse-cn"]
+language = "zh-CN"
+src = "src"
+title = "操作系统教学交流和资源收集"
+
+[build]
+build-dir = "public"
+
+[output.html]
+default-theme = "light"
+git-repository-url = "https://github.com/oscourse-cn/oscourse-cn.github.io"
+edit-url-template = "https://github.com/oscourse-cn/oscourse-cn.github.io/edit/main/{path}"

@@ -1,21 +1,15 @@
-
-BIND ?= 0.0.0.0
+BIND ?= 127.0.0.1
 PORT ?= 3001
 
-baseURL ?= ""
+check-mdbook:
+	@command -v mdbook > /dev/null 2>&1 || { echo "mdBook is not installed. Please install it first: cargo install mdbook"; exit 1; }
+	@echo "mdBook is installed."
 
-check-hugo:
-	@command -v hugo> /dev/null 2>&1 || { echo "Hugo is not installed. Please install it first."; exit 1; }
-	@echo "Hugo is installed."
+serve: check-mdbook
+	@mdbook serve --hostname $(BIND) --port $(PORT)
 
-update-home: check-hugo
-	@cp README.md content/_index.md
+build: check-mdbook
+	@mdbook build
 
-new: update-home
-	@hugo new $(doc)
-
-serve: update-home
-	@hugo server --minify --theme hugo-book --bind $(BIND) --port $(PORT)
-
-generate: update-home
-	@hugo --theme hugo-book $(if $(baseURL),--baseURL=$(baseURL))
+clean:
+	@rm -rf public
