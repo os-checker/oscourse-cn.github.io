@@ -11,4 +11,4 @@ build-dir = "public"
 default-theme = "light"
 git-repository-url = "https://github.com/oscourse-cn/oscourse-cn.github.io"
 edit-url-template = "https://github.com/oscourse-cn/oscourse-cn.github.io/edit/main/{path}"
-additional-js = ["utterances.js"]
+additional-js = ["giscus.js"]
