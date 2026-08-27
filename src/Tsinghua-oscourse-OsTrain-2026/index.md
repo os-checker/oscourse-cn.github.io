@@ -20,7 +20,7 @@
 ### 教学信息
 （仅教师和助教可访问）
 
-
+- [助教工作](https://shimo.im/docs/KrkElmErNxFmP8qJ)
 
 #### 实验批改
 
