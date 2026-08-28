@@ -6,6 +6,5 @@
 - [教学研讨会](./Teaching-Seminar/index.md)
   - [2025-05-28](./Teaching-Seminar/2025-05-28.md)
 - [清华操作系统课 2026](./Tsinghua-oscourse-OsTrain-2026/index.md)
-  - [第一讲](./Tsinghua-oscourse-OsTrain-2026/lecture1.md)
-  - [第二讲](./Tsinghua-oscourse-OsTrain-2026/lecture2.md)
+  - [课程安排](./Tsinghua-oscourse-OsTrain-2026/course-schedule.md)
 - [贡献指南](./how-to-contribute.md)

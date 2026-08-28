@@ -85,3 +85,7 @@ make serve
 mkdir src/new-section
 touch src/new-section/index.md src/new-section/first.md
 ```
+
+### 修改 `REAMD.md`
+
+仓库根目录的 `REAMD.md` 文件符号链接到 `src/index.md`，因此请不要直接修改 `REAMD.md`，而是只改动 `src/index.md`。
