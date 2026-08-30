@@ -47,7 +47,7 @@
 
 [20221007-2022年秋季学期操作系统课和操作系统专题训练课的开源项目](https://www.yuque.com/docs/share/6b5de975-96b1-4b75-b7c0-9421af8303b8)
 
-[20220922-魏永明-HVML从设计到实现](https://www.yuque.com/docs/share/3eded0b4-24eb-40f3-9e58-dcd8613480d4?# 《20220922-开源操作系统社区学术报告-HVML从设计到实现》)
+[20220922-魏永明-HVML从设计到实现](https://www.yuque.com/docs/share/3eded0b4-24eb-40f3-9e58-dcd8613480d4)
 
 [20220910-2022年开源操作系统训练营最终报告会](https://www.yuque.com/docs/share/43453332-d760-4460-9db2-a7dd2aba26e2)
 
